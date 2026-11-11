@@ -1,6 +1,20 @@
-<nav>
-    <span> BREW CAFE </span>
-  <a routerLink="/"> Home </a>
-  <a routerLink="/menu"> Menu </a>
-  <a routerLink="/cart"> Cart (0) </a>
+<nav class="navbar w-full py-0 bg-base-300">
+  <div class="navbar-start">
+    <div class="flex items-center gap-2">
+      <p> BREW CAFE </p>
+    </div>
+  </div>
+
+  <div class="navbar-center">
+    <div class="flex items-center gap-2">
+      <a routerLink="/"> Home </a>
+      <a routerLink="/menu"> Menu </a>
+    </div>
+  </div>
+
+  <div class="navbar-end items-center gap-1 lg:gap-2">
+    <div class="flex items-center gap-2">
+      <a routerLink="/cart"> Cart (0) </a>
+    </div>
+  </div>
 </nav>
